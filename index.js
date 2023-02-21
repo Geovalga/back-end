@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
         res.write(JSON.stringify({
             'Status': 'success',
             'Message': "response success",
-            'Description': "Group Exercise #03",
+            'Description': "Group Exercise #04",
             'Date': moment().format(),
             'Data': about.data
         }));
